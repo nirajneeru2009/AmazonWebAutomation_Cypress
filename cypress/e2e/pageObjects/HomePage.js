@@ -3,7 +3,7 @@
 class HomePage {
     constructor() {
       this.signInButton = '[data-csa-c-content-id="nav_ya_signin"]';
-      this.searchItems = '[type ="text"]';
+      this.searchItems = '[id ="twotabsearchtextbox"]';
       this.seachButton = '[id = "nav-search-submit-button"]';
     }
   
@@ -14,14 +14,15 @@ class HomePage {
     clickSignIn() {
       cy.get(this.signInButton).click();
     }
-    searchItem() {
-      cy.get(this.searchItems).should('be.visible').then(($searchBox) => {
-        cy.wrap($searchBox).click({force:true});
-      });
+
+    searchItem(item){
+      cy.get(this.searchItems).type(item);
     }
     clickSearch() {
       cy.get(this.seachButton).click();
     }
+
+    
   }
   
   export default HomePage;
