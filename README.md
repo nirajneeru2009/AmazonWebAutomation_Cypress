@@ -8,7 +8,6 @@ This repository contains automated tests for basic features on Amazon.com using 
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Running Tests](#running-tests)
-- [Contributing](#contributing)
 
 ## Getting Started
 
