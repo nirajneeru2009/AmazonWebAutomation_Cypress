@@ -37,7 +37,4 @@ Make sure you have the following installed on your machine:
    npx cypress open
 
    This will open the Cypress Test Runner, where you can run the tests interactively.
-   
 
-Contributing
-Contributions are welcome! Please read the contributing guidelines before submitting a pull request.
