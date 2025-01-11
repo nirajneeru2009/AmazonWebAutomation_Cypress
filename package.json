@@ -1,0 +1,22 @@
+{
+  "name": "amazonwebautomation_cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nirajneeru2009/AmazonWebAutomation_Cypress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nirajneeru2009/AmazonWebAutomation_Cypress/issues"
+  },
+  "homepage": "https://github.com/nirajneeru2009/AmazonWebAutomation_Cypress#readme",
+  "devDependencies": {
+    "cypress-multi-reporters": "^2.0.4"
+  }
+}
