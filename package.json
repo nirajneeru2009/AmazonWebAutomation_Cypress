@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/nirajneeru2009/AmazonWebAutomation_Cypress#readme",
   "devDependencies": {
+    "cypress": "^14.0.1",
     "cypress-multi-reporters": "^2.0.4"
   }
 }
