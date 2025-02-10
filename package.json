@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "cypress.config.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+ "scripts": {
+  "cy:run": "cypress run",
+  "cy:report": "cypress run --reporter junit --reporter-options 'mochaFile=results/my-test-output.xml'"
+}
+,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nirajneeru2009/AmazonWebAutomation_Cypress.git"
